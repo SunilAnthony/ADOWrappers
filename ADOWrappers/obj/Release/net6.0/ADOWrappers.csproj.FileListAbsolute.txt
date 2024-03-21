@@ -1,0 +1,12 @@
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\bin\Release\net6.0\ADOWrappers.deps.json
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\bin\Release\net6.0\ADOWrappers.dll
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\bin\Release\net6.0\ADOWrappers.pdb
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.csproj.AssemblyReference.cache
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.AssemblyInfoInputs.cache
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.AssemblyInfo.cs
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.csproj.CoreCompileInputs.cache
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.dll
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\refint\ADOWrappers.dll
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ADOWrappers.pdb
+C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\obj\Release\net6.0\ref\ADOWrappers.dll

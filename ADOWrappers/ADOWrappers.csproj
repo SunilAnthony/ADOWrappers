@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Title>ADO Wrapper for fetching data from a database</Title>
+	<Company>Stellar MLS</Company>
+	<Authors>Sunil Anthony</Authors>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Copyright>Copyright © Stellar MLS 2024</Copyright>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageTags>SqlDataReader, SqlDataTable, Object Mapper</PackageTags>
+	<Description>This package allow you to call store procedure or sql query and output a list of object. It support SqlDataTable, SqlDataReader and more. It also have mapping extensions.  See readme.md file for more details and examples.</Description>
+	<AssemblyVersion>1.0.0.1</AssemblyVersion>
+	<FileVersion>1.0.0.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+	<PackageReference Include="FastMember" Version="1.5.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+	<PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+<ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
+	<PackageReference Include="FastMember" Version="1.5.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+	<PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
+	<PackageReference Include="FastMember" Version="1.5.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+	<PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Include="README.md">
+	  <Pack>True</Pack>
+	  <PackagePath>\</PackagePath>
+	</None>
+  </ItemGroup>
+
+</Project>

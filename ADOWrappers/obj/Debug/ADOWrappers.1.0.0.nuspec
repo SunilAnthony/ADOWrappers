@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ADOWrappers</id>
+    <version>1.0.0</version>
+    <title>ADO Wrapper for fetching data from a database</title>
+    <authors>Sunil Anthony</authors>
+    <readme>README.md</readme>
+    <description>This package allow you to call store procedure or sql query and output a list of object. It support SqlDataTable, SqlDataReader and more. It also have mapping extensions.  See readme.md file for more details and examples.</description>
+    <copyright>Copyright © Stellar MLS 2024</copyright>
+    <tags>SqlDataReader, SqlDataTable, Object Mapper</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="FastMember" version="1.5.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\bin\Debug\net8.0\ADOWrappers.dll" target="lib\net8.0\ADOWrappers.dll" />
+    <file src="C:\Users\sunil.anthony\source\repos\nuget\ADOWrappers\ADOWrappers\README.md" target="\README.md" />
+  </files>
+</package>
